@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { Container, Input, Label, Btn } from './ContactForm.styled';
 
 function ContactForm({ onSubmit }) {
-
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
   const data = { name, number };
